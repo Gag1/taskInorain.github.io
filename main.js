@@ -96,7 +96,6 @@ function collectionCreatorForImagesList(){
 
 
 
-// using HLS script 
 function videoHlsStarter(url){
 let video = document.getElementById("video");
 video.controls = true
