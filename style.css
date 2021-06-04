@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.input-cont{
+    max-width: 1920px;
+    margin: auto;
+}
+
+.rw{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+#form input{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
+#form input:nth-child(3){
+    border: 1px solid rgb(185, 235, 185);
+    margin: 10px auto;
+    background-color: rgb(222, 238, 199);
+}
+
+.big-cont-from-server{
+    max-width: 1080px;
+    height: 500px;
+    margin: auto;
+}
+
+.img{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    background: url('');
+    background-repeat: no-repeat;
+}
+
+.img p {
+    padding-top: 100px;
+    text-align: center;
+}
+.c1{
+    max-width: 650px;
+    padding: 10px;
+}
+#video{
+    max-width: 1080px;
+    height: 600px;
+}
